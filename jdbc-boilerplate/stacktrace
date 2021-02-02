@@ -1,0 +1,6 @@
+Exception in thread "main" java.lang.NullPointerException
+	at org.postgresql.PGProperty.get(PGProperty.java:483)
+	at org.postgresql.ds.common.BaseDataSource.setUrl(BaseDataSource.java:1113)
+	at org.postgresql.ds.common.BaseDataSource.setURL(BaseDataSource.java:1124)
+	at com.github.littlewoo.boilerplate.jdbc.UserDatabase.<init>(UserDatabase.java:19)
+	at com.github.littlewoo.boilerplate.jdbc.Main.main(Main.java:9)

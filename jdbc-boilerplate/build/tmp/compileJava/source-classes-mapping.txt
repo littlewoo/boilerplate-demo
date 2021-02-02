@@ -1,0 +1,6 @@
+com/github/littlewoo/boilerplate/jdbc/Main.java
+ com.github.littlewoo.boilerplate.jdbc.Main
+com/github/littlewoo/boilerplate/jdbc/UserDatabase.java
+ com.github.littlewoo.boilerplate.jdbc.UserDatabase
+com/github/littlewoo/boilerplate/jdbc/User.java
+ com.github.littlewoo.boilerplate.jdbc.User
