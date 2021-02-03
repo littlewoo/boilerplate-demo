@@ -8,8 +8,10 @@ import java.util.concurrent.CompletableFuture;
 import org.postgresql.ds.PGSimpleDataSource;
 
 public class UserDatabase {
-    private final static String TABLE_NAME = "msamigration_cohort_assignments";
-    private final static String INSERT = "INSERT INTO " + TABLE_NAME  + " (user_uuid, cohort) VALUES (?, ?)";
+    private final static String TABLE_NAME =
+        "msamigration_cohort_assignments";
+    private final static String INSERT =
+        "INSERT INTO " + TABLE_NAME  + " (user_uuid, cohort) VALUES (?, ?)";
 
     private final Connection connection;
     private final PreparedStatement stmnt;
